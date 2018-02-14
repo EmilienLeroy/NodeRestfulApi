@@ -4,7 +4,14 @@
 
 A simple restful api made with Node JS. The code is based on a tutoriel made by [Brad Traversy](https://github.com/bradtraversy/bookstore).  If you want see this go [Here](https://www.youtube.com/watch?v=eB9Fq9I5ocs).
 
-## Get Started
+## Prerequisites
+
+Before install the project you need to have install :
+
+* [Node JS](https://nodejs.org/en/)
+* [npm](https://www.npmjs.com/)
+
+## Getting Started
 
 In first clone the repository to your computer.
 ```

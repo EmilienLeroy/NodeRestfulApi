@@ -37,5 +37,15 @@ app.put('/api/Movie/:_id',(req,res)=>{
     });
 });
 
+//delete a movie
+app.delete('/api/Movie/:_id',(req,res)=>{
+    let id = req.params._id;
+    let body_movie = req.body;
+    let options = {};
+    Movie.removeMovie(id,(err,result)=>{
+        res.json(result);
+    });
+});
+
 //Listen the port 7777
 app.listen(port);
