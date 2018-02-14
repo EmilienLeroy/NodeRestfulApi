@@ -22,3 +22,11 @@ module.exports.getMovie = (callback, limit) => {
 module.exports.addMovie = (movie, callback) => {
 	Movie.create(movie, callback);
 }
+//Function to update a movie
+module.exports.updateMovie = (id, movie, options, callback) => {
+    let query = {_id: id};
+    let update = {
+        title : movie.title
+    }
+    Movie.findOneAndUpdate(query,update,options,callback)
+}
