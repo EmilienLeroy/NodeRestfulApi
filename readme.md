@@ -10,6 +10,7 @@ Before install the project you need to have install :
 
 * [Node JS](https://nodejs.org/en/)
 * [npm](https://www.npmjs.com/)
+* [Mongodb](https://www.mongodb.com/)
 
 ## Getting Started
 
